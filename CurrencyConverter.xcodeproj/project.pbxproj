@@ -16,6 +16,8 @@
 		DA80FADD2B7FF171008460E7 /* CurrencyConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA80FADC2B7FF171008460E7 /* CurrencyConverterTests.swift */; };
 		DA80FAE72B7FF171008460E7 /* CurrencyConverterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA80FAE62B7FF171008460E7 /* CurrencyConverterUITests.swift */; };
 		DA80FAE92B7FF171008460E7 /* CurrencyConverterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA80FAE82B7FF171008460E7 /* CurrencyConverterUITestsLaunchTests.swift */; };
+		DA80FAF62B7FFE08008460E7 /* CurrencyConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA80FAF52B7FFE08008460E7 /* CurrencyConverter.swift */; };
+		DA80FAFA2B8000B9008460E7 /* ConversionResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA80FAF92B8000B9008460E7 /* ConversionResultsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		DA80FAE22B7FF171008460E7 /* CurrencyConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurrencyConverterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA80FAE62B7FF171008460E7 /* CurrencyConverterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverterUITests.swift; sourceTree = "<group>"; };
 		DA80FAE82B7FF171008460E7 /* CurrencyConverterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DA80FAF52B7FFE08008460E7 /* CurrencyConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverter.swift; sourceTree = "<group>"; };
+		DA80FAF92B8000B9008460E7 /* ConversionResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionResultsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				DA80FAC52B7FF170008460E7 /* AppDelegate.swift */,
 				DA80FAC72B7FF170008460E7 /* SceneDelegate.swift */,
 				DA80FAC92B7FF170008460E7 /* ViewController.swift */,
+				DA80FAF92B8000B9008460E7 /* ConversionResultsViewController.swift */,
+				DA80FAF52B7FFE08008460E7 /* CurrencyConverter.swift */,
 				DA80FACB2B7FF170008460E7 /* Main.storyboard */,
 				DA80FACE2B7FF171008460E7 /* Assets.xcassets */,
 				DA80FAD02B7FF171008460E7 /* LaunchScreen.storyboard */,
@@ -258,7 +264,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA80FAFA2B8000B9008460E7 /* ConversionResultsViewController.swift in Sources */,
 				DA80FACA2B7FF170008460E7 /* ViewController.swift in Sources */,
+				DA80FAF62B7FFE08008460E7 /* CurrencyConverter.swift in Sources */,
 				DA80FAC62B7FF170008460E7 /* AppDelegate.swift in Sources */,
 				DA80FAC82B7FF170008460E7 /* SceneDelegate.swift in Sources */,
 			);
